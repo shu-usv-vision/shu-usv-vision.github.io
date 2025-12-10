@@ -1,3 +1,142 @@
+a {
+  color: #2563eb;
+  transition: all 0.3s ease;
+}
+a:hover {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e40af;
+}
+h1 {
+  border-bottom: 3px solid #60a5fa;
+}
+h2 {
+  border-bottom: 2px solid rgba(37,99,235,0.3);
+  padding-bottom: 0.3em;
+}
+.sidebar {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border-left: 4px solid #2563eb;
+}
+.sidebar .author {
+  color: #1e40af;
+}
+.social-links a {
+  color: #2563eb;
+}
+.social-links a:hover {
+  color: #1d4ed8;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+.menu-item a {
+  color: #1e40af;
+  position: relative;
+}
+.menu-item a:hover {
+  color: #2563eb;
+}
+.menu-item a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #2563eb;
+  transition: width 0.3s ease;
+}
+.menu-item a:hover::after {
+  width: 100%;
+}
+.post-content a {
+  color: #2563eb;
+  border-bottom: 1px dashed #60a5fa;
+}
+.post-content a:hover {
+  border-bottom-style: solid;
+  color: #1d4ed8;
+}
+code {
+  background: rgba(37,99,235,0.1);
+  color: #1e40af;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+pre {
+  border-left: 4px solid #2563eb;
+}
+blockquote {
+  border-left: 4px solid #60a5fa;
+  background: rgba(96,165,250,0.05);
+  color: #1e40af;
+}
+.button,
+.btn {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+}
+.button:hover,
+.btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37,99,235,0.3);
+}
+.tag,
+.category {
+  background: rgba(37,99,235,0.1);
+  color: #2563eb;
+  border: 1px solid #60a5fa;
+}
+.tag:hover,
+.category:hover {
+  background: #2563eb;
+  color: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: #60a5fa;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+::selection {
+  background: #60a5fa;
+  color: #fff;
+}
+::-moz-selection {
+  background: #60a5fa;
+  color: #fff;
+}
+.loading {
+  border-color: #2563eb;
+}
+table {
+  border-color: rgba(37,99,235,0.2);
+}
+table thead {
+  background: rgba(37,99,235,0.1);
+  color: #1e40af;
+}
+table tbody tr:hover {
+  background: rgba(96,165,250,0.05);
+}
+hr {
+  border-color: rgba(37,99,235,0.3);
+}
+.footer {
+  border-top: 2px solid rgba(37,99,235,0.2);
+}
+.footer a {
+  color: #2563eb;
+}
 .page pre,
 .page .highlight {
   overflow: auto;
